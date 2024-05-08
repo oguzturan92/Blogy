@@ -1,0 +1,205 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebUI
+build_property.RootNamespace = WebUI
+build_property.ProjectDir = C:\Users\proje\Blogy - Kopya (2)\WebUI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\proje\Blogy - Kopya (2)\WebUI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Admin/Views/Category/CategoryCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Admin/Views/Category/CategoryList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Admin/Views/Category/CategoryUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Admin/Views/Message/MessageDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVzc2FnZVxNZXNzYWdlRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Admin/Views/Message/MessageList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVzc2FnZVxNZXNzYWdlTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Admin/Views/Notification/NotificationCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTm90aWZpY2F0aW9uXE5vdGlmaWNhdGlvbkNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Admin/Views/Notification/NotificationList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTm90aWZpY2F0aW9uXE5vdGlmaWNhdGlvbkxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Admin/Views/Shared/Components/LayoutNavbar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGF5b3V0TmF2YmFyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Admin/Views/Tag/TagCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXFRhZ0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Admin/Views/Tag/TagList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXFRhZ0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Admin/Views/Tag/TagUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFnXFRhZ1VwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Admin/Views/Writer/WriterCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcV3JpdGVyXFdyaXRlckNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Admin/Views/Writer/WriterList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcV3JpdGVyXFdyaXRlckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Admin/Views/Writer/WriterUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcV3JpdGVyXFdyaXRlclVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Writer/Views/Blog/BlogCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXEJsb2dcQmxvZ0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Writer/Views/Blog/BlogList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXEJsb2dcQmxvZ0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Writer/Views/Blog/BlogUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXEJsb2dcQmxvZ1VwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Writer/Views/Blog/CommentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXEJsb2dcQ29tbWVudExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Writer/Views/Chat/ChatCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXENoYXRcQ2hhdENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Writer/Views/Chat/ChatList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXENoYXRcQ2hhdExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Writer/Views/Chat/ChatReply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXENoYXRcQ2hhdFJlcGx5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Writer/Views/Shared/Components/ChatBildirim/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXENoYXRCaWxkaXJpbVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Writer/Views/Shared/Components/Notification/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXE5vdGlmaWNhdGlvblxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Writer/Views/Shared/Components/_LayoutNavbarComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXF9MYXlvdXROYXZiYXJDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Writer/Views/Shared/_LayoutWriter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXFNoYXJlZFxfTGF5b3V0V3JpdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Writer/Views/Statistic/StatisticList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXFN0YXRpc3RpY1xTdGF0aXN0aWNMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Writer/Views/Writer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXFdyaXRlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Areas/Writer/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Views/About/AboutClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQWJvdXRDbGllbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Views/Blog/BlogDetailClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nRGV0YWlsQ2xpZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Views/Blog/BlogListClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nTGlzdENsaWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Views/Category/CategoryCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Views/Category/CategoryEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Views/Category/CategoryList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Views/Contact/ContactClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDb250YWN0Q2xpZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Views/Information/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Views/Shared/Components/FooterComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRm9vdGVyQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Views/User/UserLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Views/User/UserRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/proje/Blogy - Kopya (2)/WebUI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

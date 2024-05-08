@@ -1,0 +1,48 @@
+@model List<Category>
+@{
+    ViewData["Title"] = "İstatistik";
+    Layout = "_LayoutWriter";
+}
+
+@foreach (var item in Model)
+{
+    <input type="hidden" class="categoryName" value="@item.CategoryName">
+    <input type="hidden" class="blogCount" value="@item.Articles.Count()">
+}
+
+<h1 class="text-center pt-3">Kategoriler ve sizin yazmış olduğunuz blog istatistikleri</h1>
+
+<div id="myChart" style="width:100%;; height:100%;"></div>
+
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script>
+    var category = document.querySelectorAll(".categoryName");
+    var count = document.querySelectorAll(".blogCount");
+
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+    // Set Data
+    const data = google.visualization.arrayToDataTable([
+        ['Contry', 'Mhl'],
+        [category[0].value,Number(count[0].value)],
+        [category[1].value,Number(count[1].value)],
+        [category[2].value,Number(count[2].value)],
+        [category[3].value,Number(count[3].value)],
+        [category[4].value,Number(count[4].value)]
+    ]);
+
+    // Set Options
+    const options = {
+        title:'World Wide Wine Production',
+        is3D:true
+    };
+
+    // Draw
+    const chart = new google.visualization.PieChart(document.getElementById('myChart'));
+    chart.draw(data, options);
+
+    }
+</script>

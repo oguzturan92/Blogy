@@ -1,0 +1,43 @@
+@model BlogListClientModel
+@{
+    ViewData["Title"] = "Blog Listesi";
+    Layout = "_Layout";
+}
+
+<section class="section">
+    <div class="container">
+
+        <div class="row mb-4">
+            <div class="col-sm-6">
+                <h2 class="posts-entry-title">Blog Listesi</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            
+            @foreach (var item in Model.Articles)
+            {
+                <div class="col-lg-4 mb-4">
+                    <div class="post-entry-alt">
+                        <a asp-controller="Blog" asp-action="BlogDetailClient" asp-route-id="@item.ArticleId" class="img-link" style="width: 100%;"><img src="@item.ArticleCoverImageUrl" alt="Image" class="img-fluid" style="height: 200px; width: 100%; object-fit: cover;"></a>
+                        <div class="excerpt">
+                            
+
+                            <h2><a asp-controller="Blog" asp-action="BlogDetailClient" asp-route-id="@item.ArticleId">@item.ArticleTitle</a></h2>
+                            <div class="post-meta align-items-center text-left clearfix">
+                                <figure class="author-figure mb-0 me-3 float-start"><img src="@item.AppUser.ImageUrl" alt="Image" class="img-fluid"></figure>
+                                <span class="d-inline-block mt-1">Yazar: <a href="#">@item.AppUser.Name</a></span>
+                                <span>&nbsp;-&nbsp; @item.ArticleCreatedDate.ToShortDateString()</span>
+                            </div>
+
+                            <p>@item.ArticleDescription.Substring(0,150)...</p>
+                            <p><a asp-controller="Blog" asp-action="BlogDetailClient" asp-route-id="@item.ArticleId" class="read-more">devamını oku</a></p>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+        
+    </div>
+</section>

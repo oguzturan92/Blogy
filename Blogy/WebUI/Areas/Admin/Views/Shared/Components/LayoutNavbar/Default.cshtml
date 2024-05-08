@@ -1,0 +1,70 @@
+@model NavbarModel
+
+<nav class="sidebar sidebar-offcanvas" id="sidebar">
+    <div class="text-center sidebar-brand-wrapper d-flex align-items-center">
+        <a class="sidebar-brand brand-logo">ADMİN PANELİ</a>
+    </div>
+    <ul class="nav">
+        <li class="nav-item nav-profile">
+            <a href="#" class="nav-link">
+                <div class="nav-profile-image">
+                <img src="@Model.AppUser.ImageUrl" alt="profile" />
+                <span class="login-status online"></span>
+                <!--change to offline or busy as needed-->
+                </div>
+                <div class="nav-profile-text d-flex flex-column pr-3">
+                <span class="font-weight-medium mb-2">@Model.AppUser.Name @Model.AppUser.Surname</span>
+                </div>
+                @* <span class="badge badge-danger text-white ml-3 rounded">3</span> *@
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">
+                @* <i class="mdi mdi-home menu-icon"></i> *@
+                <span class="menu-title">Site</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-area="Admin" asp-controller="Admin" asp-action="Index">
+                @* <i class="mdi mdi-home menu-icon"></i> *@
+                <span class="menu-title">Dashboard</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-area="Admin" asp-controller="Category" asp-action="CategoryList">
+                @* <i class="mdi mdi-home menu-icon"></i> *@
+                <span class="menu-title">Kategori</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-area="Admin" asp-controller="Tag" asp-action="TagList">
+                @* <i class="mdi mdi-home menu-icon"></i> *@
+                <span class="menu-title">Etiket</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-area="Admin" asp-controller="Writer" asp-action="WriterList">
+                @* <i class="mdi mdi-home menu-icon"></i> *@
+                <span class="menu-title">Yazar</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-area="Admin" asp-controller="Message" asp-action="MessageList">
+                @* <i class="mdi mdi-home menu-icon"></i> *@
+                <span class="menu-title">Mesaj</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-area="Admin" asp-controller="Notification" asp-action="NotificationList">
+                @* <i class="mdi mdi-home menu-icon"></i> *@
+                <span class="menu-title">Bildirim</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" asp-area="" asp-controller="User" asp-action="UserLogout">
+                @* <i class="mdi mdi-home menu-icon"></i> *@
+                <span class="menu-title">Çıkış</span>
+            </a>
+        </li>
+    </ul>
+</nav>

@@ -1,0 +1,49 @@
+@model ChatReplyModel
+@{
+    ViewData["Title"] = "Mesaj Oku ve Yanıtla";
+    Layout = "_LayoutWriter";
+}
+
+<div class="content-wrapper">
+    <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">MESAJ OKU & YANITLA</h4>
+                    <div class="table-responsive">
+                        <form asp-area="Writer" asp-controller="Chat" asp-action="ChatReply" method="post">
+                            <input type="hidden" asp-for="ChatId">
+                            <div class="form-group">
+                                <label>Mesajınız</label>
+                                <textarea asp-for="ChatMessage" cols="30" rows="10" class="form-control"></textarea>
+                            </div>
+                            <button class="btn btn-primary" type="submit">Yanıtla</button>
+                            <a asp-area="Writer" asp-controller="Chat" asp-action="ChatList" class="btn btn-dark ml-2">Geri</a>
+                            @foreach (var item in Model.ChatLines)
+                            {
+                                if (item.SenderUserId == Model.SenderId)
+                                {
+                                    <hr>
+                                    <div class="form-group">
+                                        <input type="text" value="@Model.SenderName" class="form-control" disabled/>
+                                        <input type="text" value="@item.ChatDate" class="form-control" disabled/>
+                                        <input type="text" value="@item.ChatMessage" class="form-control" disabled/>
+                                    </div>
+                                } else
+                                {
+                                    <hr>
+                                    <div class="form-group">
+                                        <input style="text-align: end;" type="text" value="@Model.ReceiverName" class="form-control" disabled/>
+                                        <input style="text-align: end;" type="text" value="@item.ChatDate" class="form-control" disabled/>
+                                        <input style="text-align: end;" type="text" value="@item.ChatMessage" class="form-control" disabled/>
+                                    </div>
+                                }
+                            }
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

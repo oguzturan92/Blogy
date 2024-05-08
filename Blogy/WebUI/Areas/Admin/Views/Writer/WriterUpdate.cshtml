@@ -1,0 +1,43 @@
+@model UserUpdateModel
+@{
+    ViewData["Title"] = "Kullanıcı Güncelle";
+    Layout = "_LayoutAdmin";
+}
+
+<div class="container border my-5 p-3">
+	<h3 class="text-center">KAYIT FORMU</h3>
+	<form asp-area="Admin" asp-controller="Writer" asp-action="WriterUpdate" method="post">
+        <input type="hidden" asp-for="Id">
+		<br />
+		<label>Adınız</label>
+		<input type="text" class="form-control" asp-for="Name" />
+		<br />
+		<label>Soyadınız</label>
+		<input type="text" class="form-control" asp-for="Surname" />
+		<br />
+		<label>Kullanıcı Adınız</label>
+		<input type="text" class="form-control" asp-for="UserName" />
+		<br />
+		<label>Email Adresi</label>
+		<input type="email" class="form-control" asp-for="Email" />
+        <br />
+		<label>Açıklama</label>
+		<input type="text" class="form-control" asp-for="Description" />
+        <br />
+		<label>Resim Url</label>
+		<input type="text" class="form-control" asp-for="ImageUrl" />
+		<br />
+		<label>Yazar Onayı</label>
+		<select class="form-control" asp-for="IsActive">
+			<option value="True">Açık</option>
+			<option value="False">Kapalı</option>
+		</select>
+		<br>
+		<label>Admin <input type="checkbox" name="roleName"  value="Admin" @(Model.SelectRole == Model.GetRole ? "checked":"")></label>
+		<br />
+		<div class="text-danger" asp-validation-summary="ModelOnly"></div>
+		<br />
+		<button type="Submit" class="btn btn-info">Kayıt Ol</button>
+		<a asp-area="Admin" asp-controller="Writer" asp-action="WriterList" class="btn btn-dark ml-2">Geri</a>
+	</form>
+</div>

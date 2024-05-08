@@ -1,0 +1,28 @@
+@model CategoryModel
+@{
+    ViewData["Title"] = "Kategori Ekle";
+    Layout = "_LayoutAdmin";
+}
+
+<div class="content-wrapper">
+    <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">KATEGORİ EKLE</h4>
+                    <div class="table-responsive">
+                        <form asp-area="Admin" asp-controller="Category" asp-action="CategoryCreate" method="post">
+                            <div class="form-group">
+                                <label>Başlık</label>
+                                <input type="text" asp-for="CategoryName" class="form-control"/>
+                            </div>
+                            <button class="btn btn-primary" type="submit">Kaydet</button>
+                            <a asp-area="Admin" asp-controller="Category" asp-action="CategoryList" class="btn btn-dark ml-2">Geri</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

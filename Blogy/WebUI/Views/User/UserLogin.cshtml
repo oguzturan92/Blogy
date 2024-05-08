@@ -1,0 +1,17 @@
+@model UserLoginModel
+@{
+    ViewData["Title"] = "Giriş Yap";
+}
+
+<div class="container border my-5 p-3">
+	<h3 class="text-center">GİRİŞ FORMU</h3>
+	<form asp-controller="User" asp-action="UserLogin" method="post">
+		<label>Kullanıcı Adınız</label>
+		<input type="text" class="form-control" asp-for="Username" />
+		<label>Şifre</label>
+		<input type="password" class="form-control" asp-for="Password" />
+		<div class="text-danger" asp-validation-summary="ModelOnly"></div>
+		<button type="Submit" class="btn btn-info">GİRİŞ YAP</button>
+		<a class="btn btn-light" asp-controller="User" asp-action="UserRegister">KAYIT OL</a>
+	</form>
+</div>

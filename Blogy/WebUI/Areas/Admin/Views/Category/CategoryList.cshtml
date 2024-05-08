@@ -1,0 +1,41 @@
+@model List<Category>
+@{
+    ViewData["Title"] = "Kategori Listesi";
+    Layout = "_LayoutAdmin";
+}
+
+<div class="content-wrapper">
+    <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">KATEGORİ LİSTESİ</h4>
+                    <div class="table-responsive">
+                        <table class="table mb-3">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Ad</th>
+                                    <th colspan="2"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach(var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.CategoryId</td>
+                                        <td>@item.CategoryName</td>
+                                        <td><a asp-area="Admin" asp-controller="Category" asp-action="CategoryUpdate" asp-route-id="@item.CategoryId" class="btn btn-success">Güncelle</a></td>
+                                        <td><a asp-area="Admin" asp-controller="Category" asp-action="CategoryDelete" asp-route-id="@item.CategoryId" class="btn btn-danger">Sil</a></td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                        <a asp-area="Admin" asp-controller="Category" asp-action="CategoryCreate" class="btn btn-primary">Yeni Kategori Girişi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

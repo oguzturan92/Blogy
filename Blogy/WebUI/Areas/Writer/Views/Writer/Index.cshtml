@@ -1,0 +1,100 @@
+@model DashboardModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_LayoutWriter";
+}
+
+<div class="content-wrapper pb-0">
+    <div class="row">
+        <div class="col-xl-4 col-lg-12 stretch-card grid-margin">
+            <div class="row">
+                <div class="col-xl-12 col-md-6 stretch-card grid-margin grid-margin-sm-0 pb-sm-3">
+                    <div class="card bg-warning">
+                        <div class="card-body px-3 py-4">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div class="color-card">
+                                    <h2 class="text-white">Blog</span></h2>
+                                    <h2 class="text-white">@ViewBag.articlesCount adet</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-md-6 stretch-card grid-margin grid-margin-sm-0 pb-sm-3">
+                    <div class="card bg-danger">
+                        <div class="card-body px-3 py-4">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div class="color-card">
+                                    <h2 class="text-white">Gelen Mesaj</span></h2>
+                                    <h2 class="text-white">@ViewBag.sendChatsCount adet</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-md-6 stretch-card grid-margin grid-margin-sm-0 pb-sm-3">
+                    <div class="card bg-primary">
+                        <div class="card-body px-3 py-4">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div class="color-card">
+                                    <h2 class="text-white">Gönderilen Mesaj</span></h2>
+                                    <h2 class="text-white">@ViewBag.receiverChatsCount adet</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-md-6 stretch-card pb-sm-3 pb-lg-0">
+                    <div class="card bg-success">
+                        <div class="card-body px-3 py-4">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div class="color-card">
+                                    <h2 class="text-white">Toplam Tıklama</span></h2>
+                                    <h2 class="text-white">5647 Tık</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-8 grid-margin stretch-card">
+            <div class="card card-calender" style="background-image: url('../adminTemplate/images/dashboard/Group 4.jpg');">
+                <div class="card-body">
+                    <div class="row pt-4">
+                        <div class="col-sm-6">
+                            <h1 class="text-white" id="zaman"></h1>
+                            <h5 class="text-white">@DateTime.Now.ToString("dddd MMMM yyyy").ToUpper()</h5>
+                        </div>
+                        <div class="col-sm-6 text-sm-right pt-3 pt-sm-0">
+                            <h3 class="text-white">Ankara / TÜRKİYE</h3>
+                            <h3 class="text-white m-0">@Model.forecasts[0].high°C</h3>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-sm-12">
+                            <ul class="d-flex pl-0 overflow-auto">
+                                @for (var i = 0; i < 7; i++)
+                                {
+                                    <li class="weakly-weather-item text-white font-weight-medium text-center w-100 @(i == 0 ? " active":"")">
+                                        <p class="mb-0">@Model.forecasts[i].day</p>
+                                        <i class="mdi mdi-weather-cloudy"></i>
+                                        <p class="mb-0">@Model.forecasts[i].high<span class="symbol">°c</span></p>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function tarihSaat() {
+        var date = new Date().toLocaleString('tr-TR');
+        document.getElementById("zaman").innerHTML = date;
+    }
+    setInterval(tarihSaat, 1000); 
+</script>
