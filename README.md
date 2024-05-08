@@ -1,4 +1,6 @@
-# Blog Detay ÖZellikleri
+# Register/Login/logout
+
+# Blog Detay Özellikleri
 - Blog ile birlikte, sahibi olduğu yazarın bilgilerinin de getirilmesi.
 - Tüm kategorilerin adı ve bu kategorilere ait blog yazılarının sayısı ve tıklandığında ilgli kategoriye ait blogların getirilmesi.
 - Tag isimleri ve tıklandığında ilgili tag'a ait blogların getirilmesi.
