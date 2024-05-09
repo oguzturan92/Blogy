@@ -44,7 +44,7 @@ namespace Blogy.WebUI.Areas.Writer.Controllers
                 RequestUri = new Uri("https://yahoo-weather5.p.rapidapi.com/weather?location=Ankara&format=json&u=c"),
                 Headers =
                 {
-                    { "X-RapidAPI-Key", "284c37bb44msh75f9c69b5e31064p1cbed5jsnb965f4713f5e" },
+                    { "X-RapidAPI-Key", "buraya kendi api bilginizi giriniz" },
                     { "X-RapidAPI-Host", "yahoo-weather5.p.rapidapi.com" },
                 },
             };
